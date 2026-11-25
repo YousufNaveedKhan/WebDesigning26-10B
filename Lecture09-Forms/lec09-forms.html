@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lec09 - Forms</title>
+</head>
+<body>
+    <form action="#">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" placeholder="Enter username" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter email" required>
+        <br><br>
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter password">
+        <br><br>
+
+        <label>Skills:</label>
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> JS
+        <br><br>
+        
+        <label>Gender</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br><br>
+
+        <label>Date Of Birth:</label>
+        <input type="date" >
+        <br><br>
+
+        <label>Profile Picture</label>
+        <input type="file">
+        <br><br>
+
+        <label>Favourite Colour</label>
+        <input type="color">
+        <br><br>
+
+        <label>Phone Number:</label>
+        <input type="number" >
+        <br><br>
+        <label >Bio</label>
+        <textarea name="bio" id="bio" maxlength="150" minlength="50" cols="35" rows="10"></textarea>
+        <br><br>
+
+        <label>My Read-Only Email</label>
+        <input type="email" value="aptech@gmail.com" readonly>
+        <br><br>
+        <label>Countries list</label>
+        <select>
+            <option selected disabled>Select Your Country</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Saudia Arabia">Saudia Arabia</option>
+            <option value="Turkey">Turkey</option>
+            <option value="Oman">Oman</option>
+            <option value="Malaysia">Malaysia</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
